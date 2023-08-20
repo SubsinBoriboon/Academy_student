@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: left;
+}
+th {
+  text-align: center;
+}
+th,
+td {
+  padding: 20px 50px;
+}
+table {
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+.edit {
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.4);
+  padding: 3px 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+i {
+  font-size: 15px;
+}
+.delete {
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.4);
+  background-color: crimson;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.create {
+  margin-top: 40px;
+}
+.create a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.4);
+  background-color: skyblue;
+}
